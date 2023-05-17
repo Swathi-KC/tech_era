@@ -1,0 +1,19 @@
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f1f5f9;
+  width: 100vw;
+  min-height: 10vh;
+}
+.website-logo {
+  max-width: 160px;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    max-width: 250px;
+  }
+}
